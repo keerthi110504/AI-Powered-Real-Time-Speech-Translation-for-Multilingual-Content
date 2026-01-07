@@ -1,0 +1,30 @@
+# Core dependencies
+openai-whisper
+python-dotenv==1.0.0
+numpy>=1.24.0
+requests>=2.31.0
+Flask>=2.3.0
+
+# Translation options
+googletrans==4.0.0-rc1
+transformers>=4.35.0
+torch>=2.1.0
+langdetect>=1.0.9
+
+# Text-to-Speech
+edge-tts==6.1.9
+gTTS==2.5.1
+
+# Audio processing
+pydub>=0.25.1
+scipy>=1.10.0
+librosa>=0.9.2
+soundfile>=0.12.1
+
+# YouTube handling
+pytube==15.0.0
+yt-dlp>=2023.11.16
+
+# Utilities
+tqdm==4.65.0
+Pillow>=9.0.0
