@@ -2,7 +2,6 @@
 
 An advanced speech translation system that converts speech from one language to another in real-time, supporting multiple input sources including microphone, audio files, video files, and YouTube links.
 
-## Features
 
 ### Core Functionality
 - **Speech Recognition**: Uses OpenAI Whisper for accurate speech-to-text conversion
@@ -10,13 +9,10 @@ An advanced speech translation system that converts speech from one language to 
 - **Text-to-Speech**: Generates natural-sounding audio using gTTS and Edge TTS
 - **Multi-language Support**: Handles numerous languages with automatic language detection
 
-### Advanced Features
+### Features
 - **Batch Processing**: Process multiple audio/video files simultaneously
 - **Quality Options**: Customize audio sample rate and channel configuration
 - **Real-time Streaming**: Stream audio for instant translation
-- **User History**: Track and save translation history with favorites
-- **Advanced Translation Options**: Formality control and profanity filtering
-- **Concurrent Processing**: Multi-threading for faster batch processing
 
 ### Input Sources
 - **Microphone**: Live speech recording and translation
@@ -131,4 +127,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - OpenAI Whisper for speech recognition
 - Hugging Face for translation models
 - Google Translate API
+
 - Azure Cognitive Services
